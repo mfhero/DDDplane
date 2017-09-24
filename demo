@@ -2,7 +2,7 @@
 
 if [ ! -x DDDplane.jar ]
 then
-    if [ ! make jar ]
+    if (! make jar)
     then 
         echo 'Installing jar'
         exit 1
