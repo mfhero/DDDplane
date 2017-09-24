@@ -1,4 +1,4 @@
-<img src="https://cdn-std.dprcdn.net/files/acc_581025/niHu5P" width = "200" height = "200" alt="DDDplane-icon" /> 
+
 # DDDplane
 ***
 ## What is DDDplane?
