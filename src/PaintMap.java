@@ -84,7 +84,7 @@ public class PaintMap
 			}
 		}
 		g.setColor(Color.WHITE);
-		g.drawString("负载"+Double.toString(((double)tot) / mp.pnum * 100)+"%", 50, 260 * xwidth);
+		g.drawString("workload : "+Double.toString(((double)tot) / mp.pnum * 100)+"%", 50, 260 * xwidth);
 	}
 	
 	public void drawOffer() {
@@ -112,11 +112,11 @@ public class PaintMap
 	}*/
 	
 	void initFrame() {
-		mp.setSize(drawx, drawy); // 设置界面大小
-		mp.setLocation(280, 50); // 设置界面出现的位置
+		mp.setSize(drawx, drawy); // set size
+		mp.setLocation(280, 50); // set pos
 		mp.setTitle("DDD");
 
-		mp.addWindowListener(new WindowAdapter() { // 窗口监听关闭
+		mp.addWindowListener(new WindowAdapter() { // set windows listen close
 					public void windowClosing(WindowEvent e) {
 						System.exit(0);
 					}

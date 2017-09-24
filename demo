@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! -x DDDplane.jar ]
+then
+    if [ ! make jar ]
+    then 
+        echo 'Installing jar'
+        exit 1
+    fi
+fi
+
+java -jar DDDplane.jar 
